@@ -1,6 +1,6 @@
 <?php
 
-class Home extends Controller
+class User extends Controller
 {
 
   public function index()
@@ -14,7 +14,7 @@ class Home extends Controller
     $this->view('templates/1_header', $data);
     $this->view('templates/2_sidebar');
     $this->view('templates/3_topbar');
-    $this->view('home/index', $data);
+    $this->view('user/index', $data);
     $this->view('templates/5_footer');
   }
 }

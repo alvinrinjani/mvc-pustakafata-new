@@ -26,7 +26,7 @@
                   <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="">Selengkapnya</a>
+                  <a class="dropdown-item" href="<?= BASEURL; ?>/koleksibuku/bukuHemat">Selengkapnya</a>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@
                   <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="">Selengkapnya</a>
+                  <a class="dropdown-item" href="<?= BASEURL; ?>/koleksibuku/bukuAnak">Selengkapnya</a>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@
                   <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="">Selengkapnya</a>
+                  <a class="dropdown-item" href="<?= BASEURL; ?>/koleksibuku/bukuPemikiran">Selengkapnya</a>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@
                   <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                  <a class="dropdown-item" href="">Selengkapnya</a>
+                  <a class="dropdown-item" href="<?= BASEURL; ?>/koleksibuku/bukuUmum">Selengkapnya</a>
                 </div>
               </div>
             </div>
