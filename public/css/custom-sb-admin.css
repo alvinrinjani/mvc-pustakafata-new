@@ -1,0 +1,33 @@
+.fredoka {
+	font-family: 'Fredoka One', cursive;
+	font-size: 22px;
+	color: coral;
+}
+
+.acme {
+	font-family: 'Acme', sans-serif;
+	font-size: 25px;
+}
+
+.merienda {
+	font-family: 'Merienda One', cursive;
+	font-size: 20px;
+	color: rgb(167, 19, 212);
+	text-decoration: none !important;
+}
+
+.sniglet {
+	font-family: 'Sniglet', cursive;
+}
+
+.carter-one {
+	font-family: 'Carter One', cursive;
+	font-size: 41px;
+	color: #d14737;
+	text-shadow: black 3px 3px 3px;
+}
+
+.gupter {
+	font-family: 'Gupter', serif;
+	font-size: 18px;
+}
