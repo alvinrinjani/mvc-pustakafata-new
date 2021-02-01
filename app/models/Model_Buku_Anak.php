@@ -57,7 +57,7 @@ class Model_Buku_Anak
       exit;
     }
 
-    move_uploaded_file($tmpGambar, 'assets/img/' . $namagambar);
+    move_uploaded_file($tmpGambar, 'img/' . $namagambar);
 
     return $namagambar;
   }

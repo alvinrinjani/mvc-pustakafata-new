@@ -54,7 +54,7 @@ class Model_Buku_Umum
       exit;
     }
 
-    move_uploaded_file($tmpGambar, 'assets/img/' . $namagambar);
+    move_uploaded_file($tmpGambar, 'img/' . $namagambar);
 
     return $namagambar;
   }

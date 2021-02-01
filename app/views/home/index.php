@@ -39,7 +39,7 @@
                       <a href=""><img src="<?= 'img/' . $b_anak['gambar']; ?>" class="card-img-top" alt="<?= $b_anak['slug']; ?>"></a>
                       <div class="card-body">
                       </div>
-                      <h5 class="card-title text-center merienda mb-5"><?= $b_anak['judul']; ?></h5>
+                      <a href="" class="card-title text-center merienda mb-5"><?= $b_anak['judul']; ?></a>
                       <p class="card-text sniglet mx-4">Harga : Rp. <?= $b_anak['harga']; ?>,-</p>
                       <div class="card-footer">
                         <a href="" class="badge badge-success"><i class="fab fa-whatsapp"></i> Pesan Buku</a>
@@ -83,7 +83,7 @@
                       <a href=""><img src="<?= 'img/' . $b_anak['gambar']; ?>" class="card-img-top" alt="<?= $b_anak['slug']; ?>"></a>
                       <div class="card-body">
                       </div>
-                      <h5 class="card-title text-center merienda mb-5"><?= $b_anak['judul']; ?></h5>
+                      <a href="" class="card-title text-center merienda mb-5"><?= $b_anak['judul']; ?></a>
                       <p class="card-text sniglet mx-4">Harga : Rp. <?= $b_anak['harga']; ?>,-</p>
                       <div class="card-footer">
                         <a href="" class="badge badge-success"><i class="fab fa-whatsapp"></i> Pesan Buku</a>
@@ -125,7 +125,7 @@
                       <a href=""><img src="<?= 'img/' . $b_pemikiran['gambar']; ?>" class="card-img-top" alt="<?= $b_pemikiran['slug']; ?>"></a>
                       <div class="card-body">
                       </div>
-                      <h5 class="card-title text-center merienda mb-5"><?= $b_pemikiran['judul']; ?></h5>
+                      <a href="" class="card-title text-center merienda mb-5"><?= $b_pemikiran['judul']; ?></a>
                       <p class="card-text sniglet mx-4">Harga : Rp. <?= $b_pemikiran['harga']; ?>,-</p>
                       <div class="card-footer">
                         <a href="" class="badge badge-success"><i class="fab fa-whatsapp"></i> Pesan Buku</a>
@@ -165,10 +165,10 @@
                 <?php foreach ($data['buku_umum'] as $b_umum) : ?>
                   <div class="col-lg-4 col mb-4">
                     <div class="card border-bottom-warning h-100">
-                      <a href=""><img src="<?= 'img/' . $b_umum['gambar']; ?>" class="card-img-top" alt="<?= $b_umum['slug']; ?>"></a>
+                      <a href=""><img src="<?= BASEURL . '/img/' . $b_umum['gambar']; ?>" class="card-img-top" alt="<?= $b_umum['slug']; ?>"></a>
                       <div class="card-body">
                       </div>
-                      <h5 class="card-title text-center merienda mb-5"><?= $b_umum['judul']; ?></h5>
+                      <a href="" class="card-title text-center merienda mb-5"><?= $b_umum['judul']; ?></a>
                       <p class="card-text sniglet mx-4">Harga : Rp. <?= $b_umum['harga']; ?>,-</p>
                       <div class="card-footer">
                         <a href="" class="badge badge-success"><i class="fab fa-whatsapp"></i> Pesan Buku</a>
