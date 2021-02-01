@@ -93,7 +93,7 @@ class Model_Buku_Pemikiran
     return $this->db->rowCount();
   }
 
-  public function delete_BukuPemikiran($slug)
+  public function deleteBukuPemikiran($slug)
   {
     // $query = "DELETE FROM buku_pemikiran WHERE slug = :slug";
     $this->db->query('DELETE FROM ' . $this->table_buku_pemikiran . ' WHERE slug=:slug');

@@ -107,7 +107,7 @@
         <a class="collapse-item" href="<?= BASEURL; ?>/admin/inputBuku">Masukkan Data</a>
         <h6 class="collapse-header">Ubah & Hapus Data Buku</h6>
         <a class="collapse-item" href="">Buku Hemat</a>
-        <a class="collapse-item" href="">Buku Anak</a>
+        <a class="collapse-item" href="<?= BASEURL; ?>/admin/bukuAnak">Buku Anak</a>
         <a class="collapse-item" href="">Buku Pemikiran</a>
         <a class="collapse-item" href="">Buku Umum</a>
 

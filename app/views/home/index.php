@@ -33,14 +33,14 @@
             <!-- Card Body -->
             <div class="card-body">
               <div class="card-deck">
-                <?php foreach ($data['buku_anak'] as $b_anak) : ?>
+                <?php foreach ($data['buku_hemat'] as $b_hemat) : ?>
                   <div class="col-lg-4 col mb-4">
                     <div class="card border-bottom-info h-100">
-                      <a href=""><img src="<?= 'img/' . $b_anak['gambar']; ?>" class="card-img-top" alt="<?= $b_anak['slug']; ?>"></a>
+                      <a href=""><img src="<?= 'img/' . $b_hemat['gambar']; ?>" class="card-img-top" alt="<?= $b_hemat['slug']; ?>"></a>
                       <div class="card-body">
                       </div>
-                      <a href="" class="card-title text-center merienda mb-5"><?= $b_anak['judul']; ?></a>
-                      <p class="card-text sniglet mx-4">Harga : Rp. <?= $b_anak['harga']; ?>,-</p>
+                      <a href="" class="card-title text-center merienda mb-5"><?= $b_hemat['judul']; ?></a>
+                      <p class="card-text sniglet mx-4">Harga : Rp. <?= $b_hemat['harga']; ?>,-</p>
                       <div class="card-footer">
                         <a href="" class="badge badge-success"><i class="fab fa-whatsapp"></i> Pesan Buku</a>
                       </div>

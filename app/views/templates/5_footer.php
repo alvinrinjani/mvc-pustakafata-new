@@ -37,10 +37,13 @@
 
 <!-- Page level plugins -->
 <script src="<?= BASEURL; ?>/vendor/chart.js/Chart.min.js"></script>
+<script src="<?= BASEURL; ?>/vendor/datatables/jquery.dataTables.min.js"></script>
+<script src="<?= BASEURL; ?>/vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
 <!-- Page level custom scripts -->
 <script src="<?= BASEURL; ?>/js/demo/chart-area-demo.js"></script>
 <script src="<?= BASEURL; ?>/js/demo/chart-pie-demo.js"></script>
+<script src="<?= BASEURL; ?>/js/demo/datatables-demo.js"></script>
 
 </body>
 

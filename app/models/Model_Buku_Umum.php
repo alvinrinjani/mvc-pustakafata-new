@@ -94,7 +94,7 @@ class Model_Buku_Umum
   }
 
 
-  public function delete_BukuUmum($slug)
+  public function deleteBukuUmum($slug)
   {
     // $query = "DELETE FROM buku_Umum WHERE slug = :slug";
     $this->db->query('DELETE FROM ' . $this->table_buku_umum . ' WHERE slug=:slug');
