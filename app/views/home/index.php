@@ -15,7 +15,7 @@
       <!-- Katalog Buku Hemat -->
       <!-- Katalog Buku Hemat -->
       <!-- Content Row -->
-      <div class="row">
+      <div class="row" id="buku_hemat">
         <div class="col-xl col-lg">
           <div class="card shadow mb-4">
             <!-- Card Header - Dropdown -->
@@ -59,7 +59,7 @@
       <!-- Katalog Buku Anak -->
       <!-- Katalog Buku Anak -->
       <!-- Content Row -->
-      <div class="row">
+      <div class="row" id="buku_anak">
         <div class="col-xl col-lg">
           <div class="card shadow mb-4">
             <!-- Card Header - Dropdown -->
@@ -80,7 +80,7 @@
                 <?php foreach ($data['buku_anak'] as $b_anak) : ?>
                   <div class="col-lg-4 col mb-4">
                     <div class="card border-bottom-warning h-100">
-                      <a href=""><img src="<?= 'img/' . $b_anak['gambar']; ?>" class="card-img-top" alt="<?= $b_anak['slug']; ?>"></a>
+                      <a href=""><img src="<?= BASEURL . '/img/' . $b_anak['gambar']; ?>" class="card-img-top" alt="<?= $b_anak['slug']; ?>"></a>
                       <div class="card-body">
                       </div>
                       <a href="" class="card-title text-center merienda mb-5"><?= $b_anak['judul']; ?></a>
@@ -101,7 +101,7 @@
       <!-- Katalog Buku Pemikiran -->
       <!-- Katalog Buku Pemikiran -->
       <!-- Content Row -->
-      <div class="row">
+      <div class="row" id="buku_pemikiran">
         <div class="col-xl col-lg">
           <div class="card shadow mb-4">
             <!-- Card Header - Dropdown -->
@@ -122,7 +122,7 @@
                 <?php foreach ($data['buku_pemikiran'] as $b_pemikiran) : ?>
                   <div class="col-lg-4 col mb-4">
                     <div class="card border-bottom-warning h-100">
-                      <a href=""><img src="<?= 'img/' . $b_pemikiran['gambar']; ?>" class="card-img-top" alt="<?= $b_pemikiran['slug']; ?>"></a>
+                      <a href=""><img src="<?= BASEURL . '/img/' . $b_pemikiran['gambar']; ?>" class="card-img-top" alt="<?= $b_pemikiran['slug']; ?>"></a>
                       <div class="card-body">
                       </div>
                       <a href="" class="card-title text-center merienda mb-5"><?= $b_pemikiran['judul']; ?></a>
@@ -144,7 +144,7 @@
       <!-- Katalog Buku Umum -->
       <!-- Katalog Buku Umum -->
       <!-- Content Row -->
-      <div class="row">
+      <div class="row" id="buku_umum">
         <div class="col-xl col-lg">
           <div class="card shadow mb-4">
             <!-- Card Header - Dropdown -->
