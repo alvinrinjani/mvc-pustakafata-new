@@ -16,7 +16,7 @@
   <li class="nav-item">
     <a class="nav-link" href="<?= BASEURL; ?>">
       <i class="fas fa-clipboard"></i>
-      <span>Katalog</span></a>
+      <span>Beranda</span></a>
   </li>
 
   <!-- Divider -->

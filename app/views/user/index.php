@@ -121,7 +121,7 @@
               <div class="card-deck">
                 <?php foreach ($data['buku_pemikiran'] as $b_pemikiran) : ?>
                   <div class="col-lg-4 col mb-4">
-                    <div class="card border-bottom-warning h-100">
+                    <div class="card border-bottom-danger h-100">
                       <a href=""><img src="<?= BASEURL . '/img/' . $b_pemikiran['gambar']; ?>" class="card-img-top" alt="<?= $b_pemikiran['slug']; ?>"></a>
                       <div class="card-body">
                       </div>
@@ -164,7 +164,7 @@
               <div class="card-deck">
                 <?php foreach ($data['buku_umum'] as $b_umum) : ?>
                   <div class="col-lg-4 col mb-4">
-                    <div class="card border-bottom-warning h-100">
+                    <div class="card border-bottom-primary h-100">
                       <a href=""><img src="<?= BASEURL . '/img/' . $b_umum['gambar']; ?>" class="card-img-top" alt="<?= $b_umum['slug']; ?>"></a>
                       <div class="card-body">
                       </div>

@@ -2,17 +2,17 @@
 <div class="container-fluid">
 
   <!-- Page Heading -->
-  <h1 class="h3 mb-2 text-gray-800">Koleksi Paket Buku Hemat</h1>
+  <h1 class="h3 mb-2 text-gray-800">Koleksi Buku Pemikiran</h1>
 
   <!-- DataTales Example -->
   <div class="card shadow mb-4">
-    <div class="card-header py-3  alert-info">
-      <h6 class="m-0 font-weight-bold text-info">Koleksi Paket Buku Hemat</h6>
+    <div class="card-header py-3  alert-danger">
+      <h6 class="m-0 font-weight-bold text-danger">Koleksi Buku Pemikiran</h6>
     </div>
     <div class="card-body">
       <div class="table-responsive">
         <table class="table table-bordered table-striped" id="dataTable" width="100%" cellspacing="0">
-          <thead class="alert-info">
+          <thead class="alert-danger">
             <tr>
               <th>Judul Buku</th>
               <th>Penulis</th>
@@ -21,7 +21,7 @@
               <th>Pesan Buku</th>
             </tr>
           </thead>
-          <!-- <tfoot class="alert-info">
+          <!-- <tfoot class="alert-danger">
             <tr>
               <th>Judul Buku</th>
               <th>Penulis</th>
@@ -31,12 +31,12 @@
             </tr>
           </tfoot> -->
           <tbody>
-            <?php foreach ($data['buku_hemat'] as $b_hemat) : ?>
+            <?php foreach ($data['buku_pemikiran'] as $b_pemikiran) : ?>
               <tr>
-                <td class="align-middle"><?= $b_hemat['judul']; ?></td>
-                <td class="align-middle"><?= $b_hemat['penulis']; ?></td>
-                <td class="align-middle text-center"><img class="rounded border border-info" src="<?= BASEURL . '/img/' . $b_hemat['gambar']; ?>" alt="" style="width: 90px; height:60px;"></td>
-                <td class="align-middle">Rp. <?= $b_hemat['harga']; ?>,-</td>
+                <td class="align-middle"><?= $b_pemikiran['judul']; ?></td>
+                <td class="align-middle"><?= $b_pemikiran['penulis']; ?></td>
+                <td class="align-middle text-center"><img class="rounded border border-danger" src="<?= BASEURL . '/img/' . $b_pemikiran['gambar']; ?>" alt="" style="width: 60px; height:40px;"></td>
+                <td class="align-middle">Rp. <?= $b_pemikiran['harga']; ?>,-</td>
                 <td class="align-middle">
                   <a href="" class="badge badge-success"><i class="fab fa-whatsapp"></i> Pesan Buku via WhatsApp</a>
                 </td>
