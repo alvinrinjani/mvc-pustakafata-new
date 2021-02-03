@@ -63,7 +63,7 @@
             </fieldset>
             <div class="form-group">
               <label for="gambar">Pilih Gambar...</label>
-              <input type="file" class="form-control-file" id="gambar" name="gambar">
+              <input type="file" class="form-control-file" id="gambar" name="gambar" multiple>
             </div>
             <div class="form-group">
               <label for="sinopsis">Sinopsis Buku</label>

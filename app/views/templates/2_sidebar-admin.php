@@ -35,10 +35,10 @@
     </a>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
       <div class="bg-white py-2 collapse-inner rounded">
-        <a class="collapse-item" href="">Promo Paket Buku Hemat</a>
-        <a class="collapse-item" href="">Buku Anak</a>
-        <a class="collapse-item" href="">Buku Pemikiran</a>
-        <a class="collapse-item" href="">Buku Umum</a>
+        <a class="collapse-item" href="<?= BASEURL; ?>/koleksibuku/bukuHemat">Promo Paket Buku Hemat</a>
+        <a class="collapse-item" href="<?= BASEURL; ?>/koleksibuku/bukuAnak">Buku Anak</a>
+        <a class="collapse-item" href="<?= BASEURL; ?>/koleksibuku/bukuPemikiran">Buku Pemikiran</a>
+        <a class="collapse-item" href="<?= BASEURL; ?>/koleksibuku/bukuUmum">Buku Umum</a>
       </div>
     </div>
   </li>
